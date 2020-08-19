@@ -1,14 +1,17 @@
-
-//asignar nombre y version a cache
-const CACHE_NAME='v1_cache/programador_kevinguerrero',
-urlsToCache = [
-  '/'.
-  'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css',
-'./estilo.css',
-'./manifest.json',
-'./css/img'
-]
-
+;
+//asignar un nombre y versión al cache
+const CACHE_NAME = 'v1_cache_programador_fitness',
+  urlsToCache = [
+    './',
+    'https://fonts.googleapis.com/css?family=Raleway:400,700',
+    'https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2',
+    'https://use.fontawesome.com/releases/v5.0.7/css/all.css',
+    'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
+    './style.css',
+    './script.js',
+    './img/ProgramadorFitness.png',
+    './img/favicon.png'
+  ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
 self.addEventListener('install', e => {
