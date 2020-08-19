@@ -8,8 +8,7 @@
             <link rel="stylesheet" href="css/estilo.css">
             <title>SERVICOS TECNICOS</title>
 
-		  
-  <meta name="theme-color" content="#blue">
+  <meta name="theme-color" content="blue">
   <meta name="MobileOptimized" content="width">
   <meta name="HandheldFriendly" content="true">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -76,15 +75,12 @@
 
                         </div>
                         
-
+<script>
   Notification.requestPermission(function (status) {
     console.log('Notification permission status',status);
   })
-
   const myButton = document.getElementById('myHeader');
-
   myButton.addEventListener('click',displayNotification);
-
   function displayNotification() {
     if (Notification.permission == 'granted') {
       navigator.serviceWorker.ready.then(function(reg) {
