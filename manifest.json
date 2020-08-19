@@ -13,8 +13,8 @@
  "start_url": "https://serviciostecnicos.github.io/kg/Index",
  "icons": [
   {
-   "src": "css/img/icons.jpg",
-   "type": "image/jpg",
+   "src": "css/img/logo.png",
+   "type": "image/png",
    "sizes": "192x192"
   }
  ]
