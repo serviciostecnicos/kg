@@ -10,7 +10,7 @@
  "dir": "auto",
  "display": "standalone",
  "orientation": "portrait",
- "start_url": "./?utm_source=web_app_manifest",
+ "start_url": "https://serviciostecnicos.github.io/kg/Index",
  "icons": [
   {
    "src": "css/img/icons.jpg",
