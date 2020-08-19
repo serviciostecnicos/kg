@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+  <html lang="es" dir="ltr">
+          <head>
+            <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+            <meta name="manifest" content="./manifest.json">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <link rel="shortcut icon" href="css/img/logo.png">
+            <link rel="stylesheet" href="css/estilo.css">
+            <title>SERVICOS TECNICOS</title>
+
+  <body background='css/img/fondo.jpeg'>
+          <div class="todo">
+                <header>
+                      <input type="checkbox" id="btn-menu" />
+                          <label for="btn-menu"> <img class="logo"src="css/img/logo-barra-superio.png"> <p class="titulo">TODO LO QUE BUSCAS </p> <i class="fa fa-bars"></i></label>
+                                <nav class="menu">
+                                        <ul>
+                                            <li><a class="" href="#"><i class="fa fa-home fa-2x gn-icon"></i>PRINCIPAL</a></li>
+                                            <li><a class="" href="https://serviciostecnicos.github.io/ka/Servicios.html"><i class="fa fa-cogs fa-2x gn-icon"></i>SERVICIOS</a></li>
+                                            <li><a class="" href="#"><i class="fa fa-info fa-2x gn-icon"></i>NOSOTROS</a></li>
+                                            <li><a class="" href="#"><i class="fa fa-envelope fa-2x gn-icon"></i>CONTACTO</a></li>
+                                          </ul>
+                                  </nav>
+                </header>
+                          <nav class="BarraSuperior">
+  																			<ul>
+  																					<li><img src="css/img/1.jpg" width="400" height="200"></li>
+  																					<li><img src="css/img/2.jpg" width="400" height="200"></li>
+  																					<li><img src="css/img/3.jpg" width="400" height="200"></li>
+  																					<li><img src="css/img/4.jpg" width="400" height="200"></li>
+  																			</ul>
+  															</nav>
+
+                                <p style="font-size: 20px; text-align: center; margin: 20px;
+                                ">Especialistas en la reparacion de todo tipo de pc</p>
+
+                                <div class="Promo">
+                                    <p>"Somos una empresa dedicada al manteniminto y reparacion de todo
+                                      tipo de pc de escritorio, Laptop o equipo de oficina, te ofrecemos lo
+                                      mejor en nuestros servicos, y te garantizamos la solucion a tus problemas
+                                      con la mayor calida en nuetra atencion.
+                                      contactanos en nuetras redes sociales y ayudanos a seguir creciendo, y seguir
+                                      ofreciendote los mejores servicios."
+                                    </p><h1>TE ESPERAMOS!!</h1></div>
+<div class="contenedor">
+
+
+<img id='img2' src="css/img/icons.jpg" alt="">
+</div>
+            <div class="marcas"> <img src="css/img/marcas.png"></div>
+	                <div class="LinkRedes">
+                        <a class="lightbox" href="https://api.whatsapp.com/send?phone=+50495735339">
+      									<img src="css/img/whatsapp.png"></a>
+                        <a class="lightbox" href="http://m.facebook.com">
+      									<img src="css/img/facebook.png"> </a>
+                        <a class="lightbox" href="http://instagram.com">
+      									<img src="css/img/Instagram.png"></a></div>
+
+                        <footer class="finaltodo">
+                                <p>Desarrollador Kevin Guerrero
+                                    <br>Derechos Reservados</p>
+                                              </footer>
+
+                        </div>
+                        <script src='js/jquery-3.5.1.min.js'></script>
+                        <script>
+
+  Notification.requestPermission(function (status) {
+    console.log('Notification permission status',status);
+  })
+
+  const myButton = document.getElementById('myHeader');
+
+  myButton.addEventListener('click',displayNotification);
+
+  function displayNotification() {
+    if (Notification.permission == 'granted') {
+      navigator.serviceWorker.ready.then(function(reg) {
+        const options = {
+          body:'Here is notification body',
+          vibrate:[100, 50, 100],
+          data:{
+            dateOfArrival:Date.now(),
+            primaryKey:1
+          }
+        };
+        reg.showNotication('Hello world', options);
+      });
+    }
+  }
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load',()=>{
+      navigator.serviceWorker.register('./sw.js');
+    });
+  }
+</script>
+        </body>
+</html>
