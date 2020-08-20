@@ -234,7 +234,7 @@ header label {
     font-size:17px;
 }
 
-  #btn-menu:hover ~ .menu {
+  #btn-menu:checked ~ .menu {
     transform: translateX(0%);
 }
 
