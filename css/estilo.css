@@ -207,7 +207,7 @@ header label {
     transform: translateX(-100%);
     transition: all 0.3s;
     position: absolute;
-    width: 70%;
+    width: 50%;
     top: 64px;
     left: 0;
 }
