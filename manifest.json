@@ -14,8 +14,8 @@
  "icons": [
   {
    "src": "css/img/icons.png",
-   "type": "image/png",
-   "sizes": "144x144"
+          "sizes": "1024x1024",
+          "type": "image/png"
   }
  ]
 }
