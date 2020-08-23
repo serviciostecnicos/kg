@@ -1,4 +1,3 @@
-@media  (max-width: 1968px ){
 *{
   font-family: sans-serif;
   box-sizing:border-box;
@@ -7,16 +6,25 @@
 }
 
 body{
-width: 90%;
-margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 .todo{
+  height: 800px;
   box-shadow: 0 0 10px 5px grey inset;
   background: white;
 }
 
+
+.computadora{
+  font-size: 30px;
+  padding: 300px;
+  text-align: center;
+}
+
 header {
+  display: none;
   background: #000;
   display: flex;
   height: 64px;
@@ -28,6 +36,7 @@ header {
 }
 
 .BarraSuperior{
+  display: none;
   overflow:hidden;
   margin:auto;
 	width:100%;
@@ -71,6 +80,7 @@ header label {
 }
 
 .menu{
+  display: none;
   width: 100%;
 }
 
@@ -101,11 +111,13 @@ header label {
 }
 
 .marcas{
+  display: none;
   margin: auto;
   width: 50%;
 }
 
 .Promo{
+  display: none;
 	width:80%;
 	color:black;
 	margin:auto;
@@ -121,6 +133,7 @@ header label {
 
 
 #img2{
+  display: none;
   border-radius: 20px;
   margin: 40px;
 }
@@ -131,6 +144,7 @@ header label {
 }
 
 .LinkRedes{
+    display: none;
     margin:30px;
 }
 
@@ -152,6 +166,7 @@ header label {
 }
 
   .finaltodo{
+    display: none;
   color: white;
   background: black;
   padding: 10px;
@@ -163,13 +178,17 @@ header label {
     font-size: 15px;
 }
 
-}
+
 @media  (max-width: 968px ){
     body{
     box-shadow: 0 0 10px 1px white inset;
     width: 100%;
     height: 100%;
     background: white;
+}
+
+.computadora{
+  display: none;
 }
 
     .todo{
@@ -185,6 +204,7 @@ header label {
     float: left;
 }
     header label {
+    display: block;
     box-shadow: 0 0 10px 1px grey inset;
     background: #00aae7;
     transition: all 0.4s ease;
@@ -196,6 +216,7 @@ header label {
 }
 
   .titulo{
+    display:block;
     font-family: Uroob;
     font-size: 20px;
     margin-right: 15px;
@@ -205,6 +226,7 @@ header label {
 }
 
   .menu {
+    display: block;
     transform: translateX(-100%);
     transition: all 0.3s;
     position: absolute;
@@ -244,6 +266,7 @@ header label {
 }
 
 .BarraSuperior{
+  display: block;
   border-radius:10px;
   overflow:hidden;
   margin-top: 10px;
@@ -282,6 +305,7 @@ header label {
   }
 
 .Promo{
+  display: block;
 	width:80%;
 	margin:auto;
 }
@@ -299,6 +323,7 @@ header label {
 }
 
 #img2{
+  display: block;
   width: 90%; height:150px;
   border-radius: 10px;
   margin: 20px;
@@ -310,6 +335,7 @@ header label {
 }
 
     .LinkRedes{
+      display: block;
       margin-top: 50px;
 }
 
@@ -330,6 +356,7 @@ header label {
 }
 
     .finaltodo{
+      display: block;
       box-shadow: 0 0 8px 1px grey inset;
       background: #00aae7;
       padding: 20px;
