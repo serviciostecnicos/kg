@@ -16,6 +16,9 @@ body{
   background: white;
 }
 
+.texto11{
+display:none;
+}
 
 .computadora{
   font-size: 30px;
@@ -196,6 +199,13 @@ header label {
     height: 100%;
     background:none;
 }
+
+.texto11{
+  display:block;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}	
 
     .logo{
     width: 25%;
