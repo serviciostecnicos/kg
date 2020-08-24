@@ -123,6 +123,11 @@ display: none;
 @media  (max-width: 968px ){
   .view-ninth{
     display: block;
+    margin-left: 30px;
+  }
+
+  .view-ninth p{
+    margin-right: 20px;;
   }
 
 .view-ninth .mask-1, .view-ninth .mask-2 {
