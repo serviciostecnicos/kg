@@ -13,7 +13,6 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
     './script.js',
     'css/style.css',
     'css/style_common.css',
-    'http://fonts.googleapis.com/css?family=Oswald',
     './css/img/icons.png'
   ]
 
