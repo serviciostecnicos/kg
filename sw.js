@@ -11,6 +11,9 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
     'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
     './css/estilo.css',
     './script.js',
+    'css/style.css',
+    'css/style_common.css',
+    'http://fonts.googleapis.com/css?family=Oswald',
     './css/img/icons.png'
   ]
 
