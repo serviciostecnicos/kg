@@ -27,6 +27,7 @@ display:none;
 }
 
 header {
+  width: 100%;	
   display: none;
   background: #000;
   display: flex;
@@ -78,6 +79,7 @@ header {
 }
 
 header label {
+  width: 100%;
   cursor: pointer;
   display: none;
 }
@@ -214,6 +216,7 @@ header label {
     float: left;
 }
     header label {
+    width: 100%;
     display: block;
     box-shadow: 0 0 10px 1px grey inset;
     background: #00aae7;
@@ -227,12 +230,13 @@ header label {
 
   .titulo{
     display:block;
-    font-family: Uroob;
-    font-size: 20px;
-    margin-right: 15px;
+    text-align: center;
+    margin-left: 15%;
+    width: 100%;
+    font-family: Franklin Gothic;
+    font-weight: bold;
+    font-size: 50%;
     display: block;
-    margin-top: 9px;
-    float: right;
 }
 
   .menu {
@@ -321,12 +325,16 @@ header label {
 }
 
 .Promo p {
+
+    font-family: Franklin Gothic;
   font-size:12px;
   width: 100%;
   padding:0;
 }
 
 .Promo h1{
+	
+    font-family: Franklin Gothic;
   text-align: center;
   font-size:15px;
   padding: 20px;
@@ -372,6 +380,8 @@ header label {
       padding: 20px;
 }
     .finaltodo p {
+	    
+    font-family: Franklin Gothic;
         text-align: center;
         color: white;
         font-size: 10px;
